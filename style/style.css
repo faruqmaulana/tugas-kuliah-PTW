@@ -3,8 +3,11 @@ body {
   color: white;
 }
 
-a {
+.img {
   text-decoration: none;
+}
+a {
+  color: white;
 }
 
 .gallery-section {
@@ -29,4 +32,22 @@ a {
 .img-thumbnail:hover {
   opacity: 0.5;
   transition: all 0.3s;
+}
+
+.flex-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  font-size: 18pt;
+}
+
+.header {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16pt;
+  color: white;
+}
+
+img {
+  width: 200px;
 }
